@@ -1,0 +1,40 @@
+#🏨Hotel Management System
+
+The **Hotel Management System** is a desktop application developed using **Python**, **Tkinter**, and **SQLite3**. It provides a user-friendly interface for managing hotel operations, including **room management**, **guest registration**, and **booking management**. The application uses the modern **clam theme** for a clean, professional appearance.
+
+This project is ideal for **small to medium-sized hotels** looking to streamline operations through a simple, database-driven system.
+
+## ✨ Features
+### 🛏️ Room Management
+- Add new rooms with details: **room number**, **type** (Single, Double, Suite), and **price**.
+- Delete rooms (*only if they are not currently booked*).
+- View all rooms with their **availability status**.
+
+### 👤 Guest Management
+- Register new guests with **name**, **phone number**, and **email**.
+- Store guest data securely using SQLite for easy retrieval.
+
+### 📅 Booking Management
+- Create bookings by specifying **room number**, **guest ID**, **check-in**, and **check-out** dates.
+- Delete bookings and **automatically update room availability**.
+- Validate date formats and ensure room availability before booking.
+
+### 🗃️ Database Integration
+- Uses **SQLite3** to store room, guest, and booking data.
+- Maintains data integrity using **foreign key constraints**.
+
+### 🖥️ User Interface
+- Built using **Tkinter's clam theme**.
+- **Modern UI** with light gray background and blue/green accents.
+- **Tabular display** using Treeview widgets for room and booking information.
+- Robust **error handling** with user-friendly message boxes.
+
+---
+
+## 🔧 Prerequisites
+
+To run this application, ensure you have:
+
+- Python **3.6 or higher**
+- **Tkinter** (included with Python)
+- **SQLite3** (included with Python)
