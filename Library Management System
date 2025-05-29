@@ -1,0 +1,62 @@
+# Library Management System
+
+## Overview
+The Library Management System is a desktop application designed to manage a library's catalog efficiently. This system allows administrators to perform various operations on book records including adding, viewing, searching, updating, and deleting entries. The application features a clean, user-friendly interface with both light and dark theme options.
+
+<img width = 800 src= https://github.com/user-attachments/assets/47c436ce-df0e-4719-83bd-e4357f0d6df2 ></img>
+
+## Features
+- **Book Management**: Add, update, delete, and search for books in the catalog
+- **Data Fields**: Track book details including title, author, publication year, and ISBN
+- **Complete Catalog View**: Display all books in a structured table format
+- **Export Functionality**: Export book data for external use
+- **Theme Toggle**: Switch between light and dark themes for user preference
+
+## Technical Stack
+- **Frontend**: Built with Python using the Tkinter library for GUI
+- **Backend**: SQLite database for efficient data storage and retrieval
+- **Architecture**: Implements non-primitive data structures for optimized performance
+
+## Implementation Details
+The system is organized with a sidebar navigation menu providing access to different sections:
+- Dashboard: Overview of the library system
+- Books: Main catalog management interface
+- Members: User account management
+- Settings: System configuration options
+
+The books interface includes search functionality with multiple parameters (title, author, year, ISBN) to quickly locate specific records in large catalogs.
+
+## Database Schema
+The book records contain the following fields:
+- ID: Unique identifier for each book
+- Title: Name of the book
+- Author: Writer's full name
+- Year: Publication year
+- ISBN: International Standard Book Number for unique identification
+
+## Learning Outcomes
+This project demonstrates practical implementation of:
+- Non-primitive data structures in Python
+- Database integration with a desktop application
+- User interface design principles
+- CRUD (Create, Read, Update, Delete) operations
+
+## Installation
+1. Clone the repository
+2. Install required dependencies:
+   ```
+   pip install tkinter sqlite3
+   ```
+3. Run the application:
+   ```
+   python main.py
+   ```
+
+## Future Enhancements
+- Member borrowing system with due date tracking
+- Barcode/QR code integration for physical book processing
+- Advanced reporting and analytics
+- Cloud synchronization for multi-location libraries
+
+## Project
+This comes under as the Capstone project of Python programming( 1st year, 2nd sem) and Software Engineering ( 2nd year, 4th sem).
